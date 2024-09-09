@@ -186,12 +186,16 @@ class MultiDayPageContent<T> extends StatelessWidget {
   }) {
     return eventGroups.map(
       (eventGroup) {
-        final dayIndex = visibleDates
-            .asMap()
-            .entries
-            .where((entry) => entry.value == eventGroup.date)
-            .elementAt(eventGroup.events.firstOrNull?.spaceIndex ?? 0)
-            .key;
+        final filteredEntries = visibleDates.asMap().entries.where((entry) => entry.value == eventGroup.date).toList();
+
+        final dayIndex = filteredEntries.isNotEmpty &&
+                eventGroup.events.firstOrNull?.spaceIndex != null &&
+                eventGroup.events.firstOrNull!.spaceIndex! < filteredEntries.length
+            ? filteredEntries[eventGroup.events.firstOrNull!.spaceIndex!].key
+            : null;
+        if(dayIndex == null){
+          return const SizedBox.shrink();
+        }
         return Positioned(
           left: left(dayIndex, dayWidth),
           width: dayWidth,

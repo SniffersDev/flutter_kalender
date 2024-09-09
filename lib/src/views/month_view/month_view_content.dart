@@ -59,7 +59,7 @@ class MonthViewContent<T> extends StatelessWidget {
                 );
 
                 return Row(children: [
-                  for (int i = 0; i < scope.eventsController.space; i++)
+                  for (int i = 0; i < scope.eventsController.monthSpace; i++)
                     Expanded(
                         child: MonthViewPageContent<T>(
                       spaceIndex: i,

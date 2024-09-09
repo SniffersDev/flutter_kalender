@@ -10,6 +10,12 @@ class CalendarEventsController<T> with ChangeNotifier {
   /// for overlap or a gap between this and another date range.
   int space = 1;
 
+  /// The `monthSpace` parameter controls the extension of the date range in month mode.
+  /// Instead of duplicating individual dates, it adds an extra iteration to account for
+  /// overlapping or extending full months. This ensures seamless transitions between
+  /// consecutive months without duplicating the dates themselves.
+  int monthSpace = 1;
+
   /// The list of [CalendarEvent]s.
   final List<CalendarEvent<T>> _events = <CalendarEvent<T>>[];
   List<CalendarEvent<T>> get events => _events;
