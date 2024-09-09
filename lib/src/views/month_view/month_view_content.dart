@@ -31,12 +31,12 @@ class MonthViewContent<T> extends StatelessWidget {
             width: constraints.maxWidth,
             height: constraints.maxHeight,
             child: PageView.builder(
+              physics: const NeverScrollableScrollPhysics(),
               key: Key(viewConfiguration.hashCode.toString()),
               controller: state.pageController,
               itemCount: state.numberOfPages,
               onPageChanged: (index) {
-                final newVisibleDateTimeRange =
-                    viewConfiguration.calculateVisibleDateRangeForIndex(
+                final newVisibleDateTimeRange = viewConfiguration.calculateVisibleDateRangeForIndex(
                   index: index,
                   calendarStart: scope.state.adjustedDateTimeRange.start,
                 );
@@ -45,8 +45,7 @@ class MonthViewContent<T> extends StatelessWidget {
                 scope.state.visibleDateTimeRange = newVisibleDateTimeRange;
 
                 // Update the selected date.
-                controller.selectedDate =
-                    newVisibleDateTimeRange.centerDateTime;
+                controller.selectedDate = newVisibleDateTimeRange.centerDateTime;
 
                 // Call the onPageChanged function.
                 scope.functions.onPageChanged?.call(
@@ -54,19 +53,23 @@ class MonthViewContent<T> extends StatelessWidget {
                 );
               },
               itemBuilder: (context, index) {
-                final visibleDateRange =
-                    viewConfiguration.calculateVisibleDateRangeForIndex(
+                final visibleDateRange = viewConfiguration.calculateVisibleDateRangeForIndex(
                   index: index,
                   calendarStart: scope.state.adjustedDateTimeRange.start,
                 );
 
-                return MonthViewPageContent<T>(
-                  viewConfiguration: viewConfiguration,
-                  visibleDateRange: visibleDateRange,
-                  horizontalStep: horizontalStep,
-                  verticalStep: verticalStep,
-                  controller: controller,
-                );
+                return Row(children: [
+                  for (int i = 0; i < scope.eventsController.space; i++)
+                    Expanded(
+                        child: MonthViewPageContent<T>(
+                      spaceIndex: i,
+                      viewConfiguration: viewConfiguration,
+                      visibleDateRange: visibleDateRange,
+                      horizontalStep: horizontalStep,
+                      verticalStep: verticalStep,
+                      controller: controller,
+                    ))
+                ]);
               },
             ),
           );

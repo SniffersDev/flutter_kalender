@@ -11,12 +11,16 @@ import 'package:kalender/src/providers/calendar_style.dart';
 class MonthViewPageContent<T> extends StatelessWidget {
   const MonthViewPageContent({
     super.key,
+    required this.spaceIndex,
     required this.viewConfiguration,
     required this.visibleDateRange,
     required this.horizontalStep,
     required this.verticalStep,
     required this.controller,
   });
+
+  /// The index representing the date space. Different resources in the calendar have varying spaces, and this index can be used to filter and display the correct events within a specific space.
+  final int spaceIndex;
 
   final DateTimeRange visibleDateRange;
   final MonthViewConfiguration viewConfiguration;
@@ -57,9 +61,11 @@ class MonthViewPageContent<T> extends StatelessWidget {
                       );
 
                       // Get the events from the events controller.
-                      final events = scope.eventsController.getEventsFromDateRange(
-                        weekDateRange,
-                      );
+                      final events = scope.eventsController
+                          .getEventsFromDateRange(
+                            weekDateRange,
+                          )
+                          .where((e) => e.spaceIndex == spaceIndex);
 
                       controller.visibleEvents = controller.visibleEvents.followedBy(events);
 

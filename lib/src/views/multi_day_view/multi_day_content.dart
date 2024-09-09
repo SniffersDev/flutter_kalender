@@ -56,10 +56,9 @@ class MultiDayContent<T> extends StatelessWidget {
                 child: PageView.builder(
                   // This key is used to force the page view to rebuild when the view configuration changes.
                   key: Key(viewConfiguration.name),
-
+                  physics: const NeverScrollableScrollPhysics(),
                   controller: state.pageController,
                   itemCount: state.numberOfPages,
-                  physics: value,
                   clipBehavior: Clip.none,
                   onPageChanged: (index) {
                     // Calculate the new visible date range.
