@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/models/view_configurations/view_configuration.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/view_configuration.dart';
 
 /// This is the base class for all [ScheduleViewConfiguration]s.
 abstract class ScheduleViewConfiguration extends ViewConfiguration {

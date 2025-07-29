@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/components/general/date_icon_button.dart';
+import 'package:sniffer_kalender/src/components/general/date_icon_button.dart';
 
-import 'package:kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
 
 /// A widget that displays the date in the month cell header.
 class MonthCellHeader extends StatelessWidget {

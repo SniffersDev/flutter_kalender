@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
 
 class DefaultTileHandle extends StatelessWidget {
   const DefaultTileHandle({

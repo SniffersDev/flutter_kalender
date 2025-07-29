@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/components/layout_delegates/event_group_layout.dart';
-import 'package:kalender/src/components/layout_delegates/multi_day_event_group_layout.dart';
-import 'package:kalender/src/models/calendar/calendar_controller.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
-import 'package:kalender/src/models/tile_configurations/multi_day_tile_configuration.dart';
-import 'package:kalender/src/models/tile_configurations/tile_configuration.dart';
+import 'package:sniffer_kalender/src/components/layout_delegates/event_group_layout.dart';
+import 'package:sniffer_kalender/src/components/layout_delegates/multi_day_event_group_layout.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_controller.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/tile_configurations/multi_day_tile_configuration.dart';
+import 'package:sniffer_kalender/src/models/tile_configurations/tile_configuration.dart';
 
 /// The [CalendarHeaderBuilder] is used to build the header displayed in the calendar's header.
 typedef CalendarHeaderBuilder<T extends Object?> = Widget Function(

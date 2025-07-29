@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/components/tiles/event_tile.dart';
-import 'package:kalender/src/models/event_group_controllers/event_group_controller.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/components/tiles/event_tile.dart';
+import 'package:sniffer_kalender/src/models/event_group_controllers/event_group_controller.dart';
 
 /// A widget that displays a group of events as [EventGestureDetector]s using the [CustomMultiChildLayout] widget.
 class EventGroupWidget<T> extends StatelessWidget {

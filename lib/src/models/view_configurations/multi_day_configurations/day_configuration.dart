@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/view_configurations/view_configuration_export.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/view_configuration_export.dart';
 
 /// The [DayConfiguration] class contains the configuration for the [MultiDayView].
 ///

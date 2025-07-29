@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
-import 'package:kalender/src/models/view_configurations/view_configuration.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/view_configuration.dart';
 
 /// The base class for the viewStates.
 abstract class ViewState {

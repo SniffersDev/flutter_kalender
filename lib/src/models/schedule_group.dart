@@ -1,4 +1,4 @@
-import 'package:kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
 
 class ScheduleGroup<T> {
   const ScheduleGroup({

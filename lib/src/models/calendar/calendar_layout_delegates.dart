@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/type_definitions.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/type_definitions.dart';
 
 /// The [CalendarLayoutDelegates] class contains layout controllers used by the calendar view.
 class CalendarLayoutDelegates<T> {

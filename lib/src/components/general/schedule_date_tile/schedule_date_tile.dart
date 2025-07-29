@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/models/schedule_group.dart';
-import 'package:kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/models/schedule_group.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
 
 class ScheduleDateTile<T> extends StatelessWidget {
   const ScheduleDateTile({

@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
-import 'package:kalender/src/models/calendar/view_state/view_state.dart';
-import 'package:kalender/src/models/view_configurations/month_configurations/month_view_configuration.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/view_state.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/month_configurations/month_view_configuration.dart';
 
 /// The viewState for the [MonthView].
 class MonthViewState extends ViewState {

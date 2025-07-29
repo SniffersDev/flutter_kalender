@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
 
 /// The [CalendarEventHandlers] class contains the functions that are called by the calendar view.
 ///  * an event is changed, tapped, or created

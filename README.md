@@ -41,7 +41,7 @@ Try it out [here](https://werner-scholtz.github.io/kalender/)
 2. Import it:   
     
     ```dart
-   import 'package:kalender/kalender.dart';
+   import 'package:sniffer_kalender/kalender.dart';
     ```
 
 ## Usage

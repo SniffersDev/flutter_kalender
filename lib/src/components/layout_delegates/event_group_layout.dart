@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
 
 /// The base MultiChildLayoutDelegate for [EventGroupLayoutDelegate]'s
 ///

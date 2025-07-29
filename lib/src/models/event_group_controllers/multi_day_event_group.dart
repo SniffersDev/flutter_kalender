@@ -1,6 +1,6 @@
 import 'dart:math' hide log;
 
-import 'package:kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
 
 /// A group of [CalendarEvent]'s that will be stacked on top of each other.
 class MultiDayEventGroup<T> {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/view_configurations/multi_day_configurations/multi_day_view_configuration.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/multi_day_configurations/multi_day_view_configuration.dart';
 
 class MultiWeekConfiguration extends MultiDayViewConfiguration {
   MultiWeekConfiguration({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/view_configurations/schedule_configurations/schedule_view_configuration.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/schedule_configurations/schedule_view_configuration.dart';
 
 class ScheduleConfiguration extends ScheduleViewConfiguration {
   ScheduleConfiguration({

@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
-import 'package:kalender/src/models/calendar/view_state/view_state.dart';
-import 'package:kalender/src/models/schedule_group.dart';
-import 'package:kalender/src/models/view_configurations/schedule_configurations/schedule_view_configuration.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/view_state.dart';
+import 'package:sniffer_kalender/src/models/schedule_group.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/schedule_configurations/schedule_view_configuration.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 /// The viewState for the [ScheduleView].

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
 import 'date_time_test_object.dart';
 
 void main() async {

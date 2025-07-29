@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/extensions.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
 
 void main() {
   group('ViewConfiguration Tests', () {

@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
+import 'package:sniffer_kalender/kalender.dart';
 
-import 'package:kalender/src/constants.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/view_state/month_view_state.dart';
-import 'package:kalender/src/models/calendar/view_state/multi_day_view_state.dart';
-import 'package:kalender/src/models/calendar/view_state/schedule_view_state.dart';
-import 'package:kalender/src/models/calendar/view_state/view_state.dart';
+import 'package:sniffer_kalender/src/constants.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/month_view_state.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/multi_day_view_state.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/schedule_view_state.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/view_state.dart';
 
 /// The [CalendarController] is used to control a calendar view.
 ///

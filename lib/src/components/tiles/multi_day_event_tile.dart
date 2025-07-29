@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/models/view_configurations/month_configurations/month_view_configuration.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/month_configurations/month_view_configuration.dart';
 
-import 'package:kalender/src/models/view_configurations/multi_day_configurations/multi_day_view_configuration.dart';
-import 'package:kalender/src/providers/calendar_scope.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
-import 'package:kalender/src/models/calendar/calendar_event_controller.dart';
-import 'package:kalender/src/models/calendar/calendar_functions.dart';
-import 'package:kalender/src/models/tile_configurations/multi_day_tile_configuration.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/multi_day_configurations/multi_day_view_configuration.dart';
+import 'package:sniffer_kalender/src/providers/calendar_scope.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event_controller.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_functions.dart';
+import 'package:sniffer_kalender/src/models/tile_configurations/multi_day_tile_configuration.dart';
 
 class MultiDayEventGestureDetector<T> extends StatefulWidget {
   const MultiDayEventGestureDetector({

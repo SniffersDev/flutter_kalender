@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:kalender/kalender.dart';
+import 'package:sniffer_kalender/kalender.dart';
 
 /// This widget is used to detect gestures on the [MultiDayPageWidget].
 class MultiDayPageGestureDetector<T> extends StatefulWidget {

@@ -1,5 +1,5 @@
-import 'package:kalender/src/enumerations.dart';
-import 'package:kalender/src/models/view_configurations/view_configuration.dart';
+import 'package:sniffer_kalender/src/enumerations.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/view_configuration.dart';
 
 /// This is the base class for all [MultiDayViewConfiguration]s.
 abstract class MultiDayViewConfiguration extends ViewConfiguration {

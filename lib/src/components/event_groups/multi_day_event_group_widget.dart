@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/components/tiles/multi_day_event_tile.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/event_group_controllers/multi_day_event_group.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/components/tiles/multi_day_event_tile.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/event_group_controllers/multi_day_event_group.dart';
 
 /// A widget that displays a group of events as [MultiDayEventGestureDetector]s using the [CustomMultiChildLayout] widget.
 class MultiDayEventGroupWidget<T> extends StatelessWidget {

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/models/calendar/calendar_event.dart';
-import 'package:kalender/src/models/calendar/view_state/multi_day_view_state.dart';
-import 'package:kalender/src/providers/calendar_scope.dart';
-import 'package:kalender/src/components/gesture_detectors/multi_day_page_gesture_detector.dart';
-import 'package:kalender/src/components/event_groups/event_group_widget.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/models/calendar/calendar_controller.dart';
-import 'package:kalender/src/models/calendar/calendar_event_controller.dart';
-import 'package:kalender/src/models/event_group_controllers/event_group_controller.dart';
-import 'package:kalender/src/models/view_configurations/multi_day_configurations/multi_day_view_configuration.dart';
-import 'package:kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/multi_day_view_state.dart';
+import 'package:sniffer_kalender/src/providers/calendar_scope.dart';
+import 'package:sniffer_kalender/src/components/gesture_detectors/multi_day_page_gesture_detector.dart';
+import 'package:sniffer_kalender/src/components/event_groups/event_group_widget.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_controller.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event_controller.dart';
+import 'package:sniffer_kalender/src/models/event_group_controllers/event_group_controller.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/multi_day_configurations/multi_day_view_configuration.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
 
 class MultiDayPageContent<T> extends StatelessWidget {
   const MultiDayPageContent({

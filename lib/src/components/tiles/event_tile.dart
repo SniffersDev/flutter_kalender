@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/extensions.dart';
-import 'package:kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
 
 class EventGestureDetector<T> extends StatefulWidget {
   const EventGestureDetector({

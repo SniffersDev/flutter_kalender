@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/models/calendar/calendar_components.dart';
-import 'package:kalender/src/models/calendar/calendar_event_controller.dart';
-import 'package:kalender/src/models/calendar/calendar_functions.dart';
-import 'package:kalender/src/models/calendar/calendar_layout_delegates.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_components.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event_controller.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_functions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_layout_delegates.dart';
 
-import 'package:kalender/src/models/calendar/platform_data/web_platform_data.dart'
-    if (dart.library.io) 'package:kalender/src/models/calendar/platform_data/io_platform_data.dart';
-import 'package:kalender/src/models/calendar/view_state/view_state.dart';
+import 'package:sniffer_kalender/src/models/calendar/platform_data/web_platform_data.dart'
+    if (dart.library.io) 'package:sniffer_kalender/src/models/calendar/platform_data/io_platform_data.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/view_state.dart';
 
 /// The [InheritedWidget] that provides the calendar with the necessary data.
 ///

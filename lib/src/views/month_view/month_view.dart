@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/models/calendar/calendar_components.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_components.dart';
 
-import 'package:kalender/src/models/calendar/calendar_controller.dart';
-import 'package:kalender/src/models/calendar/calendar_event_controller.dart';
-import 'package:kalender/src/models/calendar/calendar_functions.dart';
-import 'package:kalender/src/models/calendar/calendar_layout_delegates.dart';
-import 'package:kalender/src/models/calendar/calendar_style.dart';
-import 'package:kalender/src/models/calendar/view_state/month_view_state.dart';
-import 'package:kalender/src/models/view_configurations/view_configuration_export.dart';
-import 'package:kalender/src/providers/calendar_scope.dart';
-import 'package:kalender/src/providers/calendar_style.dart';
-import 'package:kalender/src/type_definitions.dart';
-import 'package:kalender/src/views/month_view/month_view_content.dart';
-import 'package:kalender/src/views/month_view/month_view_header.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_controller.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_event_controller.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_functions.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_layout_delegates.dart';
+import 'package:sniffer_kalender/src/models/calendar/calendar_style.dart';
+import 'package:sniffer_kalender/src/models/calendar/view_state/month_view_state.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/view_configuration_export.dart';
+import 'package:sniffer_kalender/src/providers/calendar_scope.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/src/type_definitions.dart';
+import 'package:sniffer_kalender/src/views/month_view/month_view_content.dart';
+import 'package:sniffer_kalender/src/views/month_view/month_view_header.dart';
 
-import 'package:kalender/src/models/calendar/platform_data/web_platform_data.dart'
-    if (dart.library.io) 'package:kalender/src/models/calendar/platform_data/io_platform_data.dart';
+import 'package:sniffer_kalender/src/models/calendar/platform_data/web_platform_data.dart'
+    if (dart.library.io) 'package:sniffer_kalender/src/models/calendar/platform_data/io_platform_data.dart';
 
 class MonthView<T> extends StatefulWidget {
   const MonthView({

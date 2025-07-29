@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/components/general/material_header/material_header.dart';
-import 'package:kalender/src/models/view_configurations/view_configuration_export.dart';
-import 'package:kalender/src/providers/calendar_scope.dart';
-import 'package:kalender/src/providers/calendar_style.dart';
+import 'package:sniffer_kalender/src/components/general/material_header/material_header.dart';
+import 'package:sniffer_kalender/src/models/view_configurations/view_configuration_export.dart';
+import 'package:sniffer_kalender/src/providers/calendar_scope.dart';
+import 'package:sniffer_kalender/src/providers/calendar_style.dart';
 
 class MonthViewHeader<T> extends StatelessWidget {
   const MonthViewHeader({

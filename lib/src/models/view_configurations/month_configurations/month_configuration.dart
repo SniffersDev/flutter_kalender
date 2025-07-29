@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/extensions.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/extensions.dart';
 
 class MonthConfiguration extends MonthViewConfiguration {
   MonthConfiguration({

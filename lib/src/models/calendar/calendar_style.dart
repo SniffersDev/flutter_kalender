@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/src/components/general/styles_export.dart';
+import 'package:sniffer_kalender/src/components/general/styles_export.dart';
 
 /// The [CalendarStyle] class is used to store custom style's for the [CalendarComponents].
 class CalendarStyle {

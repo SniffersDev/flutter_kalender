@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:kalender/kalender.dart';
-import 'package:kalender/src/components/general/day_header/day_header.dart';
-import 'package:kalender/src/components/general/day_separator/day_separator.dart';
-import 'package:kalender/src/components/general/hour_line/hour_lines.dart';
-import 'package:kalender/src/components/general/month_cell_header/month_cell_header.dart';
-import 'package:kalender/src/components/general/month_grid/month_grid.dart';
-import 'package:kalender/src/components/general/month_header/month_header.dart';
-import 'package:kalender/src/components/general/schedule_month_header/schedule_month_header.dart';
-import 'package:kalender/src/components/general/tile_handle/tile_handle.dart';
-import 'package:kalender/src/components/general/time_indicator/time_indicator.dart';
-import 'package:kalender/src/components/general/time_line/timeline.dart';
-import 'package:kalender/src/components/general/week_number/week_number.dart';
-import 'package:kalender/src/type_definitions.dart';
+import 'package:sniffer_kalender/kalender.dart';
+import 'package:sniffer_kalender/src/components/general/day_header/day_header.dart';
+import 'package:sniffer_kalender/src/components/general/day_separator/day_separator.dart';
+import 'package:sniffer_kalender/src/components/general/hour_line/hour_lines.dart';
+import 'package:sniffer_kalender/src/components/general/month_cell_header/month_cell_header.dart';
+import 'package:sniffer_kalender/src/components/general/month_grid/month_grid.dart';
+import 'package:sniffer_kalender/src/components/general/month_header/month_header.dart';
+import 'package:sniffer_kalender/src/components/general/schedule_month_header/schedule_month_header.dart';
+import 'package:sniffer_kalender/src/components/general/tile_handle/tile_handle.dart';
+import 'package:sniffer_kalender/src/components/general/time_indicator/time_indicator.dart';
+import 'package:sniffer_kalender/src/components/general/time_line/timeline.dart';
+import 'package:sniffer_kalender/src/components/general/week_number/week_number.dart';
+import 'package:sniffer_kalender/src/type_definitions.dart';
 
 /// This class is used to provide the tile components for the calendar.
 class CalendarTileComponents<T> {
